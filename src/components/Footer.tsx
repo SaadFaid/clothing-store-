@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="site-footer-brand text-lg mb-4">fashionshop</h3>
+            <h3 className="site-footer-brand text-lg mb-4">YOUR_STORE</h3>
             <p className="text-sm">Your destination for trendy fashion at affordable prices.</p>
           </div>
 
@@ -43,7 +43,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-neutral-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm">&copy; 2025 fashionshop. All rights reserved.</p>
+          <p className="text-sm">&copy; 2025 YOUR_STORE. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <button className="icon-btn" aria-label="Facebook">
               <Facebook className="w-5 h-5" />

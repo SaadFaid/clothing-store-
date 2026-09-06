@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
 import { supabase } from '../lib/supabase';
-import logo from '../../public/fashionshop.png';
+import logo from '../../public/logo.png';
 
 type NavbarProps = {
   onNavigate: (page: string) => void;
